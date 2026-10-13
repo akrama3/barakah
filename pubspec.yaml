@@ -1,0 +1,25 @@
+name: barakah
+description: Barakah - Jadwal Sholat, Kiblat & Donasi
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  sqflite: ^2.3.3
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  geolocator: ^13.0.1
+  sensors_plus: ^6.1.0
+  local_auth: ^2.3.0
+  flutter_local_notifications: ^19.0.0
+
+flutter:
+  uses-material-design: true
+  # aktifkan 2 baris di bawah SETELAH foto ada di assets/images/foto.jpg
+  # assets:
+  #   - assets/images/foto.jpg
